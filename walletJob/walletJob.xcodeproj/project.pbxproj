@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44172B7A55B4FD070A219ABB /* Pods_walletJobKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757DCFCF14446774332781DA /* Pods_walletJobKit.framework */; };
+		9DAA6DD68BFDF2ADE2639E40 /* Pods_walletJobTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D42107164314A25E938DB9 /* Pods_walletJobTests.framework */; };
+		A95C91516E209D421180D83A /* Pods_walletJobKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69B2B3EA509A07D70642641 /* Pods_walletJobKitTests.framework */; };
 		FA212EED242E23E800C39799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212EEC242E23E800C39799 /* AppDelegate.swift */; };
-		FA212EEF242E23E800C39799 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212EEE242E23E800C39799 /* SceneDelegate.swift */; };
-		FA212EF1242E23E800C39799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212EF0242E23E800C39799 /* ViewController.swift */; };
+		FA212EF1242E23E800C39799 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212EF0242E23E800C39799 /* WelcomeViewController.swift */; };
 		FA212EF6242E23ED00C39799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA212EF5242E23ED00C39799 /* Assets.xcassets */; };
 		FA212EF9242E23ED00C39799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA212EF7242E23ED00C39799 /* LaunchScreen.storyboard */; };
 		FA212F04242E23ED00C39799 /* walletJobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F03242E23ED00C39799 /* walletJobTests.swift */; };
+		FA212F1D242E677400C39799 /* walletJobKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA212F14242E677400C39799 /* walletJobKit.framework */; };
+		FA212F24242E677400C39799 /* walletJobKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F23242E677400C39799 /* walletJobKitTests.swift */; };
+		FA212F26242E677400C39799 /* walletJobKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FA212F16242E677400C39799 /* walletJobKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA212F29242E677400C39799 /* walletJobKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA212F14242E677400C39799 /* walletJobKit.framework */; };
+		FA212F2A242E677400C39799 /* walletJobKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA212F14242E677400C39799 /* walletJobKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA212F38242E68EC00C39799 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA212F37242E68EC00C39799 /* WelcomeViewController.xib */; };
+		FA212F3B242E696B00C39799 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F3A242E696B00C39799 /* UIView+Helper.swift */; };
+		FA212F3D242E69A000C39799 /* String+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F3C242E69A000C39799 /* String+Helper.swift */; };
+		FA212F43242FE96900C39799 /* Pods_walletJob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA1A6B7505DDDCB75891236 /* Pods_walletJob.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +34,76 @@
 			remoteGlobalIDString = FA212EE8242E23E800C39799;
 			remoteInfo = walletJob;
 		};
+		FA212F1E242E677400C39799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA212EE1242E23E800C39799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA212F13242E677400C39799;
+			remoteInfo = walletJobKit;
+		};
+		FA212F20242E677400C39799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA212EE1242E23E800C39799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA212EE8242E23E800C39799;
+			remoteInfo = walletJob;
+		};
+		FA212F27242E677400C39799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA212EE1242E23E800C39799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA212F13242E677400C39799;
+			remoteInfo = walletJobKit;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FA212F2E242E677400C39799 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA212F2A242E677400C39799 /* walletJobKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		33277068E127A66CD3C34C12 /* Pods-walletJobKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJobKit.release.xcconfig"; path = "Target Support Files/Pods-walletJobKit/Pods-walletJobKit.release.xcconfig"; sourceTree = "<group>"; };
+		4ABFEE1DB1231C8481B92117 /* Pods-walletJobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJobTests.debug.xcconfig"; path = "Target Support Files/Pods-walletJobTests/Pods-walletJobTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AA1A6B7505DDDCB75891236 /* Pods_walletJob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walletJob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C1038DB29C936D8BE8C96D /* Pods-walletJobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJobTests.release.xcconfig"; path = "Target Support Files/Pods-walletJobTests/Pods-walletJobTests.release.xcconfig"; sourceTree = "<group>"; };
+		757DCFCF14446774332781DA /* Pods_walletJobKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walletJobKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D42107164314A25E938DB9 /* Pods_walletJobTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walletJobTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88685DF4ACB90F2C7E9D729C /* Pods-walletJob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJob.debug.xcconfig"; path = "Target Support Files/Pods-walletJob/Pods-walletJob.debug.xcconfig"; sourceTree = "<group>"; };
+		8ABF2AAA2A9158AC7769749F /* Pods-walletJob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJob.release.xcconfig"; path = "Target Support Files/Pods-walletJob/Pods-walletJob.release.xcconfig"; sourceTree = "<group>"; };
+		9E9270BEC77880040FD9EAA5 /* Pods-walletJobKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJobKitTests.debug.xcconfig"; path = "Target Support Files/Pods-walletJobKitTests/Pods-walletJobKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B69B2B3EA509A07D70642641 /* Pods_walletJobKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walletJobKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E0947440FCA9D15BB34050 /* Pods-walletJobKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJobKitTests.release.xcconfig"; path = "Target Support Files/Pods-walletJobKitTests/Pods-walletJobKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB4866E933DA049AF2529644 /* Pods-walletJobKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJobKit.debug.xcconfig"; path = "Target Support Files/Pods-walletJobKit/Pods-walletJobKit.debug.xcconfig"; sourceTree = "<group>"; };
 		FA212EE9242E23E800C39799 /* walletJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walletJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA212EEC242E23E800C39799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA212EEE242E23E800C39799 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA212EF0242E23E800C39799 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA212EF0242E23E800C39799 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		FA212EF5242E23ED00C39799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA212EF8242E23ED00C39799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA212EFA242E23ED00C39799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA212EFF242E23ED00C39799 /* walletJobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walletJobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA212F03242E23ED00C39799 /* walletJobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walletJobTests.swift; sourceTree = "<group>"; };
 		FA212F05242E23ED00C39799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA212F14242E677400C39799 /* walletJobKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = walletJobKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA212F16242E677400C39799 /* walletJobKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = walletJobKit.h; sourceTree = "<group>"; };
+		FA212F17242E677400C39799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA212F1C242E677400C39799 /* walletJobKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walletJobKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA212F23242E677400C39799 /* walletJobKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walletJobKitTests.swift; sourceTree = "<group>"; };
+		FA212F25242E677400C39799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA212F34242E67C500C39799 /* walletJob_debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = walletJob_debug.xcconfig; sourceTree = "<group>"; };
+		FA212F35242E67E600C39799 /* walletJob_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = walletJob_release.xcconfig; sourceTree = "<group>"; };
+		FA212F37242E68EC00C39799 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		FA212F3A242E696B00C39799 /* UIView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		FA212F3C242E69A000C39799 /* String+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA212F29242E677400C39799 /* walletJobKit.framework in Frameworks */,
+				FA212F43242FE96900C39799 /* Pods_walletJob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +120,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DAA6DD68BFDF2ADE2639E40 /* Pods_walletJobTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA212F11242E677400C39799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44172B7A55B4FD070A219ABB /* Pods_walletJobKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA212F19242E677400C39799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA212F1D242E677400C39799 /* walletJobKit.framework in Frameworks */,
+				A95C91516E209D421180D83A /* Pods_walletJobKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A7E730C7C50925C01A25ED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1A6B7505DDDCB75891236 /* Pods_walletJob.framework */,
+				757DCFCF14446774332781DA /* Pods_walletJobKit.framework */,
+				B69B2B3EA509A07D70642641 /* Pods_walletJobKitTests.framework */,
+				76D42107164314A25E938DB9 /* Pods_walletJobTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C2A3BD88FCE4224AF73ABB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88685DF4ACB90F2C7E9D729C /* Pods-walletJob.debug.xcconfig */,
+				8ABF2AAA2A9158AC7769749F /* Pods-walletJob.release.xcconfig */,
+				CB4866E933DA049AF2529644 /* Pods-walletJobKit.debug.xcconfig */,
+				33277068E127A66CD3C34C12 /* Pods-walletJobKit.release.xcconfig */,
+				9E9270BEC77880040FD9EAA5 /* Pods-walletJobKitTests.debug.xcconfig */,
+				C7E0947440FCA9D15BB34050 /* Pods-walletJobKitTests.release.xcconfig */,
+				4ABFEE1DB1231C8481B92117 /* Pods-walletJobTests.debug.xcconfig */,
+				73C1038DB29C936D8BE8C96D /* Pods-walletJobTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FA212EE0242E23E800C39799 = {
 			isa = PBXGroup;
 			children = (
 				FA212EEB242E23E800C39799 /* walletJob */,
 				FA212F02242E23ED00C39799 /* walletJobTests */,
+				FA212F15242E677400C39799 /* walletJobKit */,
+				FA212F22242E677400C39799 /* walletJobKitTests */,
 				FA212EEA242E23E800C39799 /* Products */,
+				D0C2A3BD88FCE4224AF73ABB /* Pods */,
+				0A7E730C7C50925C01A25ED3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +188,8 @@
 			children = (
 				FA212EE9242E23E800C39799 /* walletJob.app */,
 				FA212EFF242E23ED00C39799 /* walletJobTests.xctest */,
+				FA212F14242E677400C39799 /* walletJobKit.framework */,
+				FA212F1C242E677400C39799 /* walletJobKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,11 +198,8 @@
 			isa = PBXGroup;
 			children = (
 				FA212EEC242E23E800C39799 /* AppDelegate.swift */,
-				FA212EEE242E23E800C39799 /* SceneDelegate.swift */,
-				FA212EF0242E23E800C39799 /* ViewController.swift */,
-				FA212EF5242E23ED00C39799 /* Assets.xcassets */,
-				FA212EF7242E23ED00C39799 /* LaunchScreen.storyboard */,
-				FA212EFA242E23ED00C39799 /* Info.plist */,
+				FA212F33242E679500C39799 /* Assets */,
+				FA212F0E242E670100C39799 /* Features */,
 			);
 			path = walletJob;
 			sourceTree = "<group>";
@@ -96,20 +213,139 @@
 			path = walletJobTests;
 			sourceTree = "<group>";
 		};
+		FA212F0E242E670100C39799 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FA212F36242E68D300C39799 /* Welcome */,
+				FA212F42242E6AA600C39799 /* Onboarding */,
+				FA212F3F242E6A3500C39799 /* Wall */,
+				FA212F3E242E6A1E00C39799 /* Login */,
+				FA212F40242E6A5900C39799 /* Publish */,
+				FA212F41242E6A8F00C39799 /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FA212F15242E677400C39799 /* walletJobKit */ = {
+			isa = PBXGroup;
+			children = (
+				FA212F32242E679000C39799 /* Commons */,
+				FA212F16242E677400C39799 /* walletJobKit.h */,
+				FA212F17242E677400C39799 /* Info.plist */,
+			);
+			path = walletJobKit;
+			sourceTree = "<group>";
+		};
+		FA212F22242E677400C39799 /* walletJobKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA212F23242E677400C39799 /* walletJobKitTests.swift */,
+				FA212F25242E677400C39799 /* Info.plist */,
+			);
+			path = walletJobKitTests;
+			sourceTree = "<group>";
+		};
+		FA212F32242E679000C39799 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				FA212F39242E691B00C39799 /* Extensions */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		FA212F33242E679500C39799 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FA212EF7242E23ED00C39799 /* LaunchScreen.storyboard */,
+				FA212EF5242E23ED00C39799 /* Assets.xcassets */,
+				FA212EFA242E23ED00C39799 /* Info.plist */,
+				FA212F34242E67C500C39799 /* walletJob_debug.xcconfig */,
+				FA212F35242E67E600C39799 /* walletJob_release.xcconfig */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FA212F36242E68D300C39799 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				FA212EF0242E23E800C39799 /* WelcomeViewController.swift */,
+				FA212F37242E68EC00C39799 /* WelcomeViewController.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		FA212F39242E691B00C39799 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA212F3A242E696B00C39799 /* UIView+Helper.swift */,
+				FA212F3C242E69A000C39799 /* String+Helper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA212F3E242E6A1E00C39799 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA212F3F242E6A3500C39799 /* Wall */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wall;
+			sourceTree = "<group>";
+		};
+		FA212F40242E6A5900C39799 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		FA212F41242E6A8F00C39799 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FA212F42242E6AA600C39799 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA212F0F242E677400C39799 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA212F26242E677400C39799 /* walletJobKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		FA212EE8242E23E800C39799 /* walletJob */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA212F08242E23ED00C39799 /* Build configuration list for PBXNativeTarget "walletJob" */;
 			buildPhases = (
+				A641A3D68C57738C6A12A0B7 /* [CP] Check Pods Manifest.lock */,
 				FA212EE5242E23E800C39799 /* Sources */,
 				FA212EE6242E23E800C39799 /* Frameworks */,
 				FA212EE7242E23E800C39799 /* Resources */,
+				FA212F2E242E677400C39799 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FA212F28242E677400C39799 /* PBXTargetDependency */,
 			);
 			name = walletJob;
 			productName = walletJob;
@@ -120,6 +356,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA212F0B242E23ED00C39799 /* Build configuration list for PBXNativeTarget "walletJobTests" */;
 			buildPhases = (
+				30C256158F92287E4E4CB7B2 /* [CP] Check Pods Manifest.lock */,
 				FA212EFB242E23ED00C39799 /* Sources */,
 				FA212EFC242E23ED00C39799 /* Frameworks */,
 				FA212EFD242E23ED00C39799 /* Resources */,
@@ -132,6 +369,45 @@
 			name = walletJobTests;
 			productName = walletJobTests;
 			productReference = FA212EFF242E23ED00C39799 /* walletJobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA212F13242E677400C39799 /* walletJobKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA212F2B242E677400C39799 /* Build configuration list for PBXNativeTarget "walletJobKit" */;
+			buildPhases = (
+				860FFD593616E10234916075 /* [CP] Check Pods Manifest.lock */,
+				FA212F0F242E677400C39799 /* Headers */,
+				FA212F10242E677400C39799 /* Sources */,
+				FA212F11242E677400C39799 /* Frameworks */,
+				FA212F12242E677400C39799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = walletJobKit;
+			productName = walletJobKit;
+			productReference = FA212F14242E677400C39799 /* walletJobKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA212F1B242E677400C39799 /* walletJobKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA212F2F242E677400C39799 /* Build configuration list for PBXNativeTarget "walletJobKitTests" */;
+			buildPhases = (
+				E23D7DD7EACF93C42C2FB575 /* [CP] Check Pods Manifest.lock */,
+				FA212F18242E677400C39799 /* Sources */,
+				FA212F19242E677400C39799 /* Frameworks */,
+				FA212F1A242E677400C39799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA212F1F242E677400C39799 /* PBXTargetDependency */,
+				FA212F21242E677400C39799 /* PBXTargetDependency */,
+			);
+			name = walletJobKitTests;
+			productName = walletJobKitTests;
+			productReference = FA212F1C242E677400C39799 /* walletJobKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -148,6 +424,14 @@
 						CreatedOnToolsVersion = 11.4;
 					};
 					FA212EFE242E23ED00C39799 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = FA212EE8242E23E800C39799;
+					};
+					FA212F13242E677400C39799 = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
+					};
+					FA212F1B242E677400C39799 = {
 						CreatedOnToolsVersion = 11.4;
 						TestTargetID = FA212EE8242E23E800C39799;
 					};
@@ -168,6 +452,8 @@
 			targets = (
 				FA212EE8242E23E800C39799 /* walletJob */,
 				FA212EFE242E23ED00C39799 /* walletJobTests */,
+				FA212F13242E677400C39799 /* walletJobKit */,
+				FA212F1B242E677400C39799 /* walletJobKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +465,7 @@
 			files = (
 				FA212EF9242E23ED00C39799 /* LaunchScreen.storyboard in Resources */,
 				FA212EF6242E23ED00C39799 /* Assets.xcassets in Resources */,
+				FA212F38242E68EC00C39799 /* WelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,16 +476,120 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA212F12242E677400C39799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA212F1A242E677400C39799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30C256158F92287E4E4CB7B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walletJobTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		860FFD593616E10234916075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walletJobKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A641A3D68C57738C6A12A0B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walletJob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E23D7DD7EACF93C42C2FB575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walletJobKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA212EE5242E23E800C39799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA212EF1242E23E800C39799 /* ViewController.swift in Sources */,
+				FA212EF1242E23E800C39799 /* WelcomeViewController.swift in Sources */,
 				FA212EED242E23E800C39799 /* AppDelegate.swift in Sources */,
-				FA212EEF242E23E800C39799 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +601,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA212F10242E677400C39799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA212F3D242E69A000C39799 /* String+Helper.swift in Sources */,
+				FA212F3B242E696B00C39799 /* UIView+Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA212F18242E677400C39799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA212F24242E677400C39799 /* walletJobKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -217,6 +625,21 @@
 			isa = PBXTargetDependency;
 			target = FA212EE8242E23E800C39799 /* walletJob */;
 			targetProxy = FA212F00242E23ED00C39799 /* PBXContainerItemProxy */;
+		};
+		FA212F1F242E677400C39799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA212F13242E677400C39799 /* walletJobKit */;
+			targetProxy = FA212F1E242E677400C39799 /* PBXContainerItemProxy */;
+		};
+		FA212F21242E677400C39799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA212EE8242E23E800C39799 /* walletJob */;
+			targetProxy = FA212F20242E677400C39799 /* PBXContainerItemProxy */;
+		};
+		FA212F28242E677400C39799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA212F13242E677400C39799 /* walletJobKit */;
+			targetProxy = FA212F27242E677400C39799 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -348,11 +771,13 @@
 		};
 		FA212F09242E23ED00C39799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA212F34242E67C500C39799 /* walletJob_debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P73328WY25;
-				INFOPLIST_FILE = walletJob/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/walletJob/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -366,11 +791,13 @@
 		};
 		FA212F0A242E23ED00C39799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA212F35242E67E600C39799 /* walletJob_release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P73328WY25;
-				INFOPLIST_FILE = walletJob/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/walletJob/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,8 +811,8 @@
 		};
 		FA212F0C242E23ED00C39799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABFEE1DB1231C8481B92117 /* Pods-walletJobTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P73328WY25;
@@ -406,8 +833,8 @@
 		};
 		FA212F0D242E23ED00C39799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C1038DB29C936D8BE8C96D /* Pods-walletJobTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P73328WY25;
@@ -419,6 +846,109 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexware.walletJobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/walletJob.app/walletJob";
+			};
+			name = Release;
+		};
+		FA212F2C242E677400C39799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4866E933DA049AF2529644 /* Pods-walletJobKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P73328WY25;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = walletJobKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexware.walletJobKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA212F2D242E677400C39799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33277068E127A66CD3C34C12 /* Pods-walletJobKit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P73328WY25;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = walletJobKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexware.walletJobKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA212F30242E677400C39799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9270BEC77880040FD9EAA5 /* Pods-walletJobKitTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P73328WY25;
+				INFOPLIST_FILE = walletJobKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexware.walletJobKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/walletJob.app/walletJob";
+			};
+			name = Debug;
+		};
+		FA212F31242E677400C39799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E0947440FCA9D15BB34050 /* Pods-walletJobKitTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P73328WY25;
+				INFOPLIST_FILE = walletJobKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexware.walletJobKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,6 +982,24 @@
 			buildConfigurations = (
 				FA212F0C242E23ED00C39799 /* Debug */,
 				FA212F0D242E23ED00C39799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA212F2B242E677400C39799 /* Build configuration list for PBXNativeTarget "walletJobKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA212F2C242E677400C39799 /* Debug */,
+				FA212F2D242E677400C39799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA212F2F242E677400C39799 /* Build configuration list for PBXNativeTarget "walletJobKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA212F30242E677400C39799 /* Debug */,
+				FA212F31242E677400C39799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
