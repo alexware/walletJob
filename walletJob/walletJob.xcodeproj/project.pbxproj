@@ -84,7 +84,7 @@
 		B69B2B3EA509A07D70642641 /* Pods_walletJobKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walletJobKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E0947440FCA9D15BB34050 /* Pods-walletJobKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJobKitTests.release.xcconfig"; path = "Target Support Files/Pods-walletJobKitTests/Pods-walletJobKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB4866E933DA049AF2529644 /* Pods-walletJobKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJobKit.debug.xcconfig"; path = "Target Support Files/Pods-walletJobKit/Pods-walletJobKit.debug.xcconfig"; sourceTree = "<group>"; };
-		FA212EE9242E23E800C39799 /* walletJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walletJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA212EE9242E23E800C39799 /* Wallet Job Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wallet Job Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA212EEC242E23E800C39799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA212EF0242E23E800C39799 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		FA212EF5242E23ED00C39799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 		FA212EEA242E23E800C39799 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA212EE9242E23E800C39799 /* walletJob.app */,
+				FA212EE9242E23E800C39799 /* Wallet Job Dev.app */,
 				FA212EFF242E23ED00C39799 /* walletJobTests.xctest */,
 				FA212F14242E677400C39799 /* walletJobKit.framework */,
 				FA212F1C242E677400C39799 /* walletJobKitTests.xctest */,
@@ -349,7 +349,7 @@
 			);
 			name = walletJob;
 			productName = walletJob;
-			productReference = FA212EE9242E23E800C39799 /* walletJob.app */;
+			productReference = FA212EE9242E23E800C39799 /* Wallet Job Dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FA212EFE242E23ED00C39799 /* walletJobTests */ = {
@@ -782,7 +782,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexware.walletJob;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -802,7 +802,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexware.walletJob;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
