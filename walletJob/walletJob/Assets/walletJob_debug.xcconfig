@@ -10,3 +10,6 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 #include "Pods/Target Support Files/Pods-walletJob/Pods-walletJob.debug.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = com.alexware.walletJob.dev;
+TARGET_NAME = Wallet Job Dev
