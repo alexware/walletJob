@@ -1,0 +1,23 @@
+source 'git@github.com:alexware/walletJob.git'
+
+platform :ios, '11.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'walletJob' do
+  target 'walletJobTests' do
+  	inherit! :search_paths
+  end
+end
+
+target 'walletJobKit' do
+    target 'walletJobKitTests' do
+    inherit! :search_paths
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    puts target.name
+  end
+end

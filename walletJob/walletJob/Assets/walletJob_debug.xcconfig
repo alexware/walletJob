@@ -1,0 +1,12 @@
+//
+//  walletJob_debug.xcconfig
+//  walletJob
+//
+//  Created by Alejandro Ramos Grifé on 27/03/2020.
+//  Copyright © 2020 alexware. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-walletJob/Pods-walletJob.debug.xcconfig"
