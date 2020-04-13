@@ -40,11 +40,11 @@ public protocol Storable {
  
 }
 
-extension CacheDataManager: Storable {}
+extension CacheDataManager: Storable { }
 
 extension UserDataManager: Storable { }
 
-extension VaultDataManager: Storable {}
+extension VaultDataManager: Storable { }
 
 extension RealmDataManager: Storable { }
 
