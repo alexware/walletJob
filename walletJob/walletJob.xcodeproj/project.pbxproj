@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,10 +20,29 @@
 		FA212F26242E677400C39799 /* walletJobKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FA212F16242E677400C39799 /* walletJobKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA212F29242E677400C39799 /* walletJobKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA212F14242E677400C39799 /* walletJobKit.framework */; };
 		FA212F2A242E677400C39799 /* walletJobKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA212F14242E677400C39799 /* walletJobKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FA212F38242E68EC00C39799 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA212F37242E68EC00C39799 /* WelcomeViewController.xib */; };
 		FA212F3B242E696B00C39799 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F3A242E696B00C39799 /* UIView+Helper.swift */; };
 		FA212F3D242E69A000C39799 /* String+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F3C242E69A000C39799 /* String+Helper.swift */; };
 		FA212F43242FE96900C39799 /* Pods_walletJob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA1A6B7505DDDCB75891236 /* Pods_walletJob.framework */; };
+		FA2CA0DA244384A2000AB4B0 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2CA0D9244384A2000AB4B0 /* WelcomeViewController.xib */; };
+		FA5264F124437CA50094348E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA5264F024437CA50094348E /* RxSwift */; };
+		FA5264F324437CA50094348E /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = FA5264F224437CA50094348E /* RxTest */; };
+		FA5264F524437CA50094348E /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = FA5264F424437CA50094348E /* RxRelay */; };
+		FA5264F724437CA50094348E /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FA5264F624437CA50094348E /* RxCocoa */; };
+		FA5264F924437CA50094348E /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = FA5264F824437CA50094348E /* RxBlocking */; };
+		FA5264FC24437E210094348E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5264FB24437E210094348E /* BaseViewController.swift */; };
+		FA5265022443819D0094348E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5265012443819D0094348E /* LoginViewController.xib */; };
+		FA5265032443819D0094348E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5265012443819D0094348E /* LoginViewController.xib */; };
+		FA526505244382F40094348E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA526504244382F40094348E /* LoginViewController.swift */; };
+		FAF434492443AF9700BEA49E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF434482443AF9700BEA49E /* User.swift */; };
+		FAF4344B2443B02200BEA49E /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4344A2443B02200BEA49E /* Offer.swift */; };
+		FAF4345824446D4900BEA49E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF4345724446D4900BEA49E /* CoreData.framework */; };
+		FAF4345C24446E8400BEA49E /* VaultDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4345B24446E8400BEA49E /* VaultDataManager.swift */; };
+		FAF4345E24446ECA00BEA49E /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4345D24446ECA00BEA49E /* UserDataManager.swift */; };
+		FAF434602444708200BEA49E /* CacheDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4345F2444708200BEA49E /* CacheDataManager.swift */; };
+		FAF43462244472E300BEA49E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF43461244472E300BEA49E /* DataManager.swift */; };
+		FAF43464244475D400BEA49E /* RealmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF43463244475D400BEA49E /* RealmDataManager.swift */; };
+		FAF434662444761B00BEA49E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF434652444761B00BEA49E /* CoreDataManager.swift */; };
+		FAF4346824447EA900BEA49E /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4346724447EA900BEA49E /* Cache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,9 +120,22 @@
 		FA212F25242E677400C39799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA212F34242E67C500C39799 /* walletJob_debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = walletJob_debug.xcconfig; sourceTree = "<group>"; };
 		FA212F35242E67E600C39799 /* walletJob_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = walletJob_release.xcconfig; sourceTree = "<group>"; };
-		FA212F37242E68EC00C39799 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		FA212F3A242E696B00C39799 /* UIView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
 		FA212F3C242E69A000C39799 /* String+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
+		FA2CA0D9244384A2000AB4B0 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		FA5264FB24437E210094348E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FA5265012443819D0094348E /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FA526504244382F40094348E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FAF434482443AF9700BEA49E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAF4344A2443B02200BEA49E /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		FAF4345724446D4900BEA49E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		FAF4345B24446E8400BEA49E /* VaultDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultDataManager.swift; sourceTree = "<group>"; };
+		FAF4345D24446ECA00BEA49E /* UserDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
+		FAF4345F2444708200BEA49E /* CacheDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheDataManager.swift; sourceTree = "<group>"; };
+		FAF43461244472E300BEA49E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FAF43463244475D400BEA49E /* RealmDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataManager.swift; sourceTree = "<group>"; };
+		FAF434652444761B00BEA49E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FAF4346724447EA900BEA49E /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +143,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5264F124437CA50094348E /* RxSwift in Frameworks */,
 				FA212F29242E677400C39799 /* walletJobKit.framework in Frameworks */,
+				FA5264F724437CA50094348E /* RxCocoa in Frameworks */,
+				FA5264F524437CA50094348E /* RxRelay in Frameworks */,
 				FA212F43242FE96900C39799 /* Pods_walletJob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +155,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5264F324437CA50094348E /* RxTest in Frameworks */,
+				FA5264F924437CA50094348E /* RxBlocking in Frameworks */,
 				9DAA6DD68BFDF2ADE2639E40 /* Pods_walletJobTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44172B7A55B4FD070A219ABB /* Pods_walletJobKit.framework in Frameworks */,
+				FAF4345824446D4900BEA49E /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +185,7 @@
 		0A7E730C7C50925C01A25ED3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAF4345724446D4900BEA49E /* CoreData.framework */,
 				5AA1A6B7505DDDCB75891236 /* Pods_walletJob.framework */,
 				757DCFCF14446774332781DA /* Pods_walletJobKit.framework */,
 				B69B2B3EA509A07D70642641 /* Pods_walletJobKitTests.framework */,
@@ -216,6 +255,7 @@
 		FA212F0E242E670100C39799 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				FA5264FA24437E040094348E /* Commons */,
 				FA212F36242E68D300C39799 /* Welcome */,
 				FA212F42242E6AA600C39799 /* Onboarding */,
 				FA212F3F242E6A3500C39799 /* Wall */,
@@ -229,6 +269,7 @@
 		FA212F15242E677400C39799 /* walletJobKit */ = {
 			isa = PBXGroup;
 			children = (
+				FAF4344C24446ADE00BEA49E /* DataSource */,
 				FA212F32242E679000C39799 /* Commons */,
 				FA212F16242E677400C39799 /* walletJobKit.h */,
 				FA212F17242E677400C39799 /* Info.plist */,
@@ -248,6 +289,7 @@
 		FA212F32242E679000C39799 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				FAF434472443AF7900BEA49E /* Entities */,
 				FA212F39242E691B00C39799 /* Extensions */,
 			);
 			path = Commons;
@@ -269,7 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				FA212EF0242E23E800C39799 /* WelcomeViewController.swift */,
-				FA212F37242E68EC00C39799 /* WelcomeViewController.xib */,
+				FA2CA0D9244384A2000AB4B0 /* WelcomeViewController.xib */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -286,6 +328,8 @@
 		FA212F3E242E6A1E00C39799 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				FA5265012443819D0094348E /* LoginViewController.xib */,
+				FA526504244382F40094348E /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -318,6 +362,85 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		FA5264FA24437E040094348E /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				FA5264FB24437E210094348E /* BaseViewController.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		FAF434472443AF7900BEA49E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FAF434482443AF9700BEA49E /* User.swift */,
+				FAF4344A2443B02200BEA49E /* Offer.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FAF4344C24446ADE00BEA49E /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4345024446B2600BEA49E /* Persistence */,
+				FAF4344F24446B1A00BEA49E /* Cache */,
+				FAF4344E24446B0200BEA49E /* Vault */,
+				FAF4344D24446AE900BEA49E /* UserDefaults */,
+				FAF43461244472E300BEA49E /* DataManager.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		FAF4344D24446AE900BEA49E /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4345D24446ECA00BEA49E /* UserDataManager.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		FAF4344E24446B0200BEA49E /* Vault */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4345B24446E8400BEA49E /* VaultDataManager.swift */,
+			);
+			path = Vault;
+			sourceTree = "<group>";
+		};
+		FAF4344F24446B1A00BEA49E /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4345F2444708200BEA49E /* CacheDataManager.swift */,
+				FAF4346724447EA900BEA49E /* Cache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		FAF4345024446B2600BEA49E /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4345224446B4F00BEA49E /* CoreData */,
+				FAF4345124446B4900BEA49E /* Realm */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		FAF4345124446B4900BEA49E /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				FAF43463244475D400BEA49E /* RealmDataManager.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		FAF4345224446B4F00BEA49E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FAF434652444761B00BEA49E /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -341,6 +464,7 @@
 				FA212EE6242E23E800C39799 /* Frameworks */,
 				FA212EE7242E23E800C39799 /* Resources */,
 				FA212F2E242E677400C39799 /* Embed Frameworks */,
+				E93AC83EAE4F3DF11EC4ACF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -348,6 +472,11 @@
 				FA212F28242E677400C39799 /* PBXTargetDependency */,
 			);
 			name = walletJob;
+			packageProductDependencies = (
+				FA5264F024437CA50094348E /* RxSwift */,
+				FA5264F424437CA50094348E /* RxRelay */,
+				FA5264F624437CA50094348E /* RxCocoa */,
+			);
 			productName = walletJob;
 			productReference = FA212EE9242E23E800C39799 /* Wallet Job Dev.app */;
 			productType = "com.apple.product-type.application";
@@ -367,6 +496,10 @@
 				FA212F01242E23ED00C39799 /* PBXTargetDependency */,
 			);
 			name = walletJobTests;
+			packageProductDependencies = (
+				FA5264F224437CA50094348E /* RxTest */,
+				FA5264F824437CA50094348E /* RxBlocking */,
+			);
 			productName = walletJobTests;
 			productReference = FA212EFF242E23ED00C39799 /* walletJobTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -446,6 +579,9 @@
 				Base,
 			);
 			mainGroup = FA212EE0242E23E800C39799;
+			packageReferences = (
+				FA5264EF24437CA50094348E /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = FA212EEA242E23E800C39799 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -463,9 +599,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5265022443819D0094348E /* LoginViewController.xib in Resources */,
+				FA2CA0DA244384A2000AB4B0 /* WelcomeViewController.xib in Resources */,
 				FA212EF9242E23ED00C39799 /* LaunchScreen.storyboard in Resources */,
 				FA212EF6242E23ED00C39799 /* Assets.xcassets in Resources */,
-				FA212F38242E68EC00C39799 /* WelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +617,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5265032443819D0094348E /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +719,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E93AC83EAE4F3DF11EC4ACF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-walletJob/Pods-walletJob-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-walletJob/Pods-walletJob-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-walletJob/Pods-walletJob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -588,8 +743,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA526505244382F40094348E /* LoginViewController.swift in Sources */,
 				FA212EF1242E23E800C39799 /* WelcomeViewController.swift in Sources */,
 				FA212EED242E23E800C39799 /* AppDelegate.swift in Sources */,
+				FA5264FC24437E210094348E /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,8 +762,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF4344B2443B02200BEA49E /* Offer.swift in Sources */,
+				FAF4345C24446E8400BEA49E /* VaultDataManager.swift in Sources */,
 				FA212F3D242E69A000C39799 /* String+Helper.swift in Sources */,
 				FA212F3B242E696B00C39799 /* UIView+Helper.swift in Sources */,
+				FAF4346824447EA900BEA49E /* Cache.swift in Sources */,
+				FAF4345E24446ECA00BEA49E /* UserDataManager.swift in Sources */,
+				FAF434492443AF9700BEA49E /* User.swift in Sources */,
+				FAF43462244472E300BEA49E /* DataManager.swift in Sources */,
+				FAF434602444708200BEA49E /* CacheDataManager.swift in Sources */,
+				FAF434662444761B00BEA49E /* CoreDataManager.swift in Sources */,
+				FAF43464244475D400BEA49E /* RealmDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1005,6 +1171,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA5264EF24437CA50094348E /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA5264F024437CA50094348E /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA5264EF24437CA50094348E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		FA5264F224437CA50094348E /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA5264EF24437CA50094348E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		FA5264F424437CA50094348E /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA5264EF24437CA50094348E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		FA5264F624437CA50094348E /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA5264EF24437CA50094348E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		FA5264F824437CA50094348E /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA5264EF24437CA50094348E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA212EE1242E23E800C39799 /* Project object */;
 }
