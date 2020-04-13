@@ -1,4 +1,5 @@
 source 'git@github.com:alexware/walletJob.git'
+source 'git@github.com/CocoaPods/Specs.git'
 
 platform :ios, '11.0'
 use_frameworks!
@@ -11,6 +12,7 @@ target 'walletJob' do
 end
 
 target 'walletJobKit' do
+    pod 'Realm'
     target 'walletJobKitTests' do
     inherit! :search_paths
   end
