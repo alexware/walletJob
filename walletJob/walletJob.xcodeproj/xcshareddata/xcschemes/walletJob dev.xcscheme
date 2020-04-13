@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA212EE8242E23E800C39799"
-               BuildableName = "walletJob.app"
+               BuildableName = "Wallet Job.app"
                BlueprintName = "walletJob"
                ReferencedContainer = "container:walletJob.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA212EE8242E23E800C39799"
-            BuildableName = "walletJob.app"
+            BuildableName = "Wallet Job.app"
             BlueprintName = "walletJob"
             ReferencedContainer = "container:walletJob.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA212EE8242E23E800C39799"
-            BuildableName = "walletJob.app"
+            BuildableName = "Wallet Job.app"
             BlueprintName = "walletJob"
             ReferencedContainer = "container:walletJob.xcodeproj">
          </BuildableReference>

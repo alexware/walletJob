@@ -8,13 +8,32 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
-
+class WelcomeViewController: BaseViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.view.backgroundColor = UIColor.red
+        setupLayout()
     }
-
+    
+    func setupLayout() {
+        self.view.backgroundColor = UIColor.white
+    }
+    
+    func setupNavigation() -> UINavigationController {
+        return UINavigationController()
+    }
+    
+    
+    @IBAction func navigateToLogin(_ sender: Any) {
+        let login = LoginViewController(nibName: "LoginViewController", bundle: nil)
+        self.present(login, animated: true, completion: nil)
+        //login.modalPresentationStyle = .fullScreen
+        /*self.present(login, animated: true) {
+            
+        }*/
+        
+        
+    }
+    
 }
 
