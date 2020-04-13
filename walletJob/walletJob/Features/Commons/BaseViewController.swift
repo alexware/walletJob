@@ -6,4 +6,13 @@
 //  Copyright © 2020 alexware. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class BaseViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.view.translatesAutoresizingMaskIntoConstraints = false
+        self.view.backgroundColor = .white
+    }
+}
