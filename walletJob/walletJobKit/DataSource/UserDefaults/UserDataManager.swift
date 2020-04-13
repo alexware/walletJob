@@ -9,6 +9,13 @@
 import Foundation
 
 class UserDataManager: DataManager {
+    
+    private let defaults: UserDefaults
+    
+    init(defaults: UserDefaults = .standard) {
+        self.defaults = defaults
+    }
+    
     func create<T>(_ model: T.Type, completion: @escaping ((T) -> Void)) throws where T : Storable {
          //
      }
@@ -33,3 +40,5 @@ class UserDataManager: DataManager {
          //
      }
 }
+
+
