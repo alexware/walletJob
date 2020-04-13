@@ -11,7 +11,7 @@ import Realm
 
 class RealmDataManager: DataManager {
     
-    let realm: RLMRealm?
+    private let realm: RLMRealm?
     
     init(realm: RLMRealm?) {
         self.realm = realm

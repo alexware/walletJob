@@ -13,6 +13,7 @@ struct AppConstants {
     struct Idenfifiers {
         static let bundle: String = "com.walletJob.app"
         static let group: String = "com.walletJob"
+        static let groupVault: String = "com.walletJob.vault"
     }
     
 }

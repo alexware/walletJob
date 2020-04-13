@@ -13,6 +13,7 @@ end
 
 target 'walletJobKit' do
     pod 'Realm'
+    pod 'KeychainAccess'
     target 'walletJobKitTests' do
     inherit! :search_paths
   end
