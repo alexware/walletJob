@@ -14,12 +14,16 @@ class VaultDataManager: DataManager {
     private let keychain = Keychain(service: AppConstants.Idenfifiers.groupVault, accessGroup: AppConstants.Idenfifiers.group)
     
     func create<T>(_ model: T.Type, completion: @escaping ((T) -> Void)) throws where T : Storable {
-         /*do {
-             try keychain.set("01234567-89ab-cdef-0123-456789abcdef", key: "kishikawakatsumi")
-         }
-         catch let error {
-             print(error)
-         }*/
+        
+        /*do {
+            if T.self == String.self {
+                try keychain.set("01234567-89ab-cdef-0123-456789abcdef", key: "kishikawakatsumi")
+            } else {
+                try keychain.set("", key: "")
+            }
+        } catch {
+            print(error)
+        }*/
      }
      
      func save(object: Storable) throws {
