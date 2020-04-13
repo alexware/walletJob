@@ -10,7 +10,7 @@ import Foundation
 
 class CacheDataManager: DataManager {
     
-    let cache = NSCache<NSString, AnyObject>()
+    private let cache = NSCache<NSString, AnyObject>()
     
     func create<T>(_ model: T.Type, completion: @escaping ((T) -> Void)) throws where T : Storable {
          //
@@ -35,6 +35,5 @@ class CacheDataManager: DataManager {
      func fetch<T>(_ model: T.Type, predicate: NSPredicate?, sorted: Sorted?, completion: (([T]) -> ())) where T : Storable {
          //
      }
-    
     
 }

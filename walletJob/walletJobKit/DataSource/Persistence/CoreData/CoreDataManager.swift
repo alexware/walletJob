@@ -11,7 +11,7 @@ import CoreData
 
 class CoreDataManager: DataManager {
     
-    let data: NSManagedObject?
+    private let data: NSManagedObject?
     
     init(data: NSManagedObject?) {
         self.data = data

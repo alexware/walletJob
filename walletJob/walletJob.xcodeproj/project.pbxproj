@@ -33,6 +33,8 @@
 		FA5265022443819D0094348E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5265012443819D0094348E /* LoginViewController.xib */; };
 		FA5265032443819D0094348E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5265012443819D0094348E /* LoginViewController.xib */; };
 		FA526505244382F40094348E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA526504244382F40094348E /* LoginViewController.swift */; };
+		FAF383392444A3150052865C /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF383382444A3150052865C /* UserDefaults.swift */; };
+		FAF3833C2444A35C0052865C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF3833B2444A35C0052865C /* Constants.swift */; };
 		FAF434492443AF9700BEA49E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF434482443AF9700BEA49E /* User.swift */; };
 		FAF4344B2443B02200BEA49E /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4344A2443B02200BEA49E /* Offer.swift */; };
 		FAF4345824446D4900BEA49E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF4345724446D4900BEA49E /* CoreData.framework */; };
@@ -126,6 +128,8 @@
 		FA5264FB24437E210094348E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		FA5265012443819D0094348E /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		FA526504244382F40094348E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FAF383382444A3150052865C /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		FAF3833B2444A35C0052865C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FAF434482443AF9700BEA49E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FAF4344A2443B02200BEA49E /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		FAF4345724446D4900BEA49E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
@@ -289,6 +293,8 @@
 		FA212F32242E679000C39799 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				FAF3833A2444A3500052865C /* Assets */,
+				FAF3833D2444A42A0052865C /* Networking */,
 				FAF434472443AF7900BEA49E /* Entities */,
 				FA212F39242E691B00C39799 /* Extensions */,
 			);
@@ -370,6 +376,21 @@
 			path = Commons;
 			sourceTree = "<group>";
 		};
+		FAF3833A2444A3500052865C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FAF3833B2444A35C0052865C /* Constants.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FAF3833D2444A42A0052865C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		FAF434472443AF7900BEA49E /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +416,7 @@
 			isa = PBXGroup;
 			children = (
 				FAF4345D24446ECA00BEA49E /* UserDataManager.swift */,
+				FAF383382444A3150052865C /* UserDefaults.swift */,
 			);
 			path = UserDefaults;
 			sourceTree = "<group>";
@@ -769,7 +791,9 @@
 				FAF4346824447EA900BEA49E /* Cache.swift in Sources */,
 				FAF4345E24446ECA00BEA49E /* UserDataManager.swift in Sources */,
 				FAF434492443AF9700BEA49E /* User.swift in Sources */,
+				FAF3833C2444A35C0052865C /* Constants.swift in Sources */,
 				FAF43462244472E300BEA49E /* DataManager.swift in Sources */,
+				FAF383392444A3150052865C /* UserDefaults.swift in Sources */,
 				FAF434602444708200BEA49E /* CacheDataManager.swift in Sources */,
 				FAF434662444761B00BEA49E /* CoreDataManager.swift in Sources */,
 				FAF43464244475D400BEA49E /* RealmDataManager.swift in Sources */,
