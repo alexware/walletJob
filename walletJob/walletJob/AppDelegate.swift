@@ -23,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return true
         }
         
-        let startVC = WelcomeViewController()
-        self.window?.rootViewController = startVC
+        let routing = WelcomeRouter()
+        self.window?.rootViewController = routing.navigationController
         
         return true
     }

@@ -10,6 +10,10 @@
 		44172B7A55B4FD070A219ABB /* Pods_walletJobKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757DCFCF14446774332781DA /* Pods_walletJobKit.framework */; };
 		9DAA6DD68BFDF2ADE2639E40 /* Pods_walletJobTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D42107164314A25E938DB9 /* Pods_walletJobTests.framework */; };
 		A95C91516E209D421180D83A /* Pods_walletJobKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69B2B3EA509A07D70642641 /* Pods_walletJobKitTests.framework */; };
+		FA1DDDC6243A6263004988A9 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DDDC5243A6263004988A9 /* WelcomeInteractor.swift */; };
+		FA1DDDCE243A62B1004988A9 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DDDCD243A62B1004988A9 /* WelcomePresenter.swift */; };
+		FA1DDDD0243A62C1004988A9 /* WelcomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DDDCF243A62C1004988A9 /* WelcomeEntity.swift */; };
+		FA1DDDD2243A62D6004988A9 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DDDD1243A62D6004988A9 /* WelcomeRouter.swift */; };
 		FA212EED242E23E800C39799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212EEC242E23E800C39799 /* AppDelegate.swift */; };
 		FA212EF1242E23E800C39799 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212EF0242E23E800C39799 /* WelcomeViewController.swift */; };
 		FA212EF6242E23ED00C39799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA212EF5242E23ED00C39799 /* Assets.xcassets */; };
@@ -23,6 +27,7 @@
 		FA212F3B242E696B00C39799 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F3A242E696B00C39799 /* UIView+Helper.swift */; };
 		FA212F3D242E69A000C39799 /* String+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F3C242E69A000C39799 /* String+Helper.swift */; };
 		FA212F43242FE96900C39799 /* Pods_walletJob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA1A6B7505DDDCB75891236 /* Pods_walletJob.framework */; };
+<<<<<<< Updated upstream
 		FA2CA0DA244384A2000AB4B0 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2CA0D9244384A2000AB4B0 /* WelcomeViewController.xib */; };
 		FA5264F124437CA50094348E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA5264F024437CA50094348E /* RxSwift */; };
 		FA5264F324437CA50094348E /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = FA5264F224437CA50094348E /* RxTest */; };
@@ -45,6 +50,18 @@
 		FAF43464244475D400BEA49E /* RealmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF43463244475D400BEA49E /* RealmDataManager.swift */; };
 		FAF434662444761B00BEA49E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF434652444761B00BEA49E /* CoreDataManager.swift */; };
 		FAF4346824447EA900BEA49E /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4346724447EA900BEA49E /* Cache.swift */; };
+=======
+		FA212F46242FF7A300C39799 /* NSError+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F45242FF7A300C39799 /* NSError+Helper.swift */; };
+		FA212F48242FF8A600C39799 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F47242FF8A600C39799 /* NSObject+ClassName.swift */; };
+		FA212F4A242FF97000C39799 /* UITableView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F49242FF97000C39799 /* UITableView+Helper.swift */; };
+		FA212F4C2430DD9200C39799 /* UIScrollView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F4B2430DD9200C39799 /* UIScrollView+Helper.swift */; };
+		FA67E61F243A8C2400598495 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67E61E243A8C2400598495 /* RegisterViewController.swift */; };
+		FA67E621243A8C3500598495 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA67E620243A8C3500598495 /* RegisterViewController.xib */; };
+		FA67E623243A932400598495 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67E622243A932400598495 /* Repository.swift */; };
+		FA67E624243A93A500598495 /* WelcomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DDDCF243A62C1004988A9 /* WelcomeEntity.swift */; };
+		FA67E625243A947B00598495 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67E622243A932400598495 /* Repository.swift */; };
+		FA67E627243AA12200598495 /* WelcomeInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67E626243AA12200598495 /* WelcomeInteractorProtocol.swift */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +122,10 @@
 		B69B2B3EA509A07D70642641 /* Pods_walletJobKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walletJobKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E0947440FCA9D15BB34050 /* Pods-walletJobKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJobKitTests.release.xcconfig"; path = "Target Support Files/Pods-walletJobKitTests/Pods-walletJobKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB4866E933DA049AF2529644 /* Pods-walletJobKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletJobKit.debug.xcconfig"; path = "Target Support Files/Pods-walletJobKit/Pods-walletJobKit.debug.xcconfig"; sourceTree = "<group>"; };
+		FA1DDDC5243A6263004988A9 /* WelcomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
+		FA1DDDCD243A62B1004988A9 /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		FA1DDDCF243A62C1004988A9 /* WelcomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeEntity.swift; sourceTree = "<group>"; };
+		FA1DDDD1243A62D6004988A9 /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
 		FA212EE9242E23E800C39799 /* Wallet Job Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wallet Job Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA212EEC242E23E800C39799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA212EF0242E23E800C39799 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +145,7 @@
 		FA212F35242E67E600C39799 /* walletJob_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = walletJob_release.xcconfig; sourceTree = "<group>"; };
 		FA212F3A242E696B00C39799 /* UIView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
 		FA212F3C242E69A000C39799 /* String+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		FA2CA0D9244384A2000AB4B0 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		FA5264FB24437E210094348E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		FA5265012443819D0094348E /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -140,6 +162,16 @@
 		FAF43463244475D400BEA49E /* RealmDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataManager.swift; sourceTree = "<group>"; };
 		FAF434652444761B00BEA49E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		FAF4346724447EA900BEA49E /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+=======
+		FA212F45242FF7A300C39799 /* NSError+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError+Helper.swift"; sourceTree = "<group>"; };
+		FA212F47242FF8A600C39799 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		FA212F49242FF97000C39799 /* UITableView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Helper.swift"; sourceTree = "<group>"; };
+		FA212F4B2430DD9200C39799 /* UIScrollView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Helper.swift"; sourceTree = "<group>"; };
+		FA67E61E243A8C2400598495 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FA67E620243A8C3500598495 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		FA67E622243A932400598495 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		FA67E626243AA12200598495 /* WelcomeInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractorProtocol.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +245,48 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FA1DDDC4243A5ECD004988A9 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FA1DDDC5243A6263004988A9 /* WelcomeInteractor.swift */,
+				FA67E626243AA12200598495 /* WelcomeInteractorProtocol.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FA1DDDC7243A626C004988A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA212EF0242E23E800C39799 /* WelcomeViewController.swift */,
+				FA212F37242E68EC00C39799 /* WelcomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA1DDDC8243A6274004988A9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FA1DDDCD243A62B1004988A9 /* WelcomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FA1DDDC9243A627D004988A9 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FA1DDDCF243A62C1004988A9 /* WelcomeEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		FA1DDDCA243A6283004988A9 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FA1DDDD1243A62D6004988A9 /* WelcomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		FA212EE0242E23E800C39799 = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +335,7 @@
 			children = (
 				FA5264FA24437E040094348E /* Commons */,
 				FA212F36242E68D300C39799 /* Welcome */,
+				FA67E618243A8BAE00598495 /* Register */,
 				FA212F42242E6AA600C39799 /* Onboarding */,
 				FA212F3F242E6A3500C39799 /* Wall */,
 				FA212F3E242E6A1E00C39799 /* Login */,
@@ -297,6 +372,7 @@
 				FAF3833D2444A42A0052865C /* Networking */,
 				FAF434472443AF7900BEA49E /* Entities */,
 				FA212F39242E691B00C39799 /* Extensions */,
+				FA67E622243A932400598495 /* Repository.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -316,8 +392,16 @@
 		FA212F36242E68D300C39799 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				FA212EF0242E23E800C39799 /* WelcomeViewController.swift */,
 				FA2CA0D9244384A2000AB4B0 /* WelcomeViewController.xib */,
+=======
+				FA1DDDC7243A626C004988A9 /* View */,
+				FA1DDDC4243A5ECD004988A9 /* Interactor */,
+				FA1DDDC8243A6274004988A9 /* Presenter */,
+				FA1DDDC9243A627D004988A9 /* Entity */,
+				FA1DDDCA243A6283004988A9 /* Router */,
+>>>>>>> Stashed changes
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -326,7 +410,11 @@
 			isa = PBXGroup;
 			children = (
 				FA212F3A242E696B00C39799 /* UIView+Helper.swift */,
+				FA212F47242FF8A600C39799 /* NSObject+ClassName.swift */,
 				FA212F3C242E69A000C39799 /* String+Helper.swift */,
+				FA212F45242FF7A300C39799 /* NSError+Helper.swift */,
+				FA212F49242FF97000C39799 /* UITableView+Helper.swift */,
+				FA212F4B2430DD9200C39799 /* UIScrollView+Helper.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -368,6 +456,7 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 		FA5264FA24437E040094348E /* Commons */ = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +550,55 @@
 				FAF434652444761B00BEA49E /* CoreDataManager.swift */,
 			);
 			path = CoreData;
+=======
+		FA67E618243A8BAE00598495 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				FA67E619243A8BD400598495 /* View */,
+				FA67E61B243A8BF300598495 /* Presenter */,
+				FA67E61A243A8BE800598495 /* Interactor */,
+				FA67E61C243A8BF800598495 /* Entity */,
+				FA67E61D243A8C0800598495 /* Router */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		FA67E619243A8BD400598495 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA67E61E243A8C2400598495 /* RegisterViewController.swift */,
+				FA67E620243A8C3500598495 /* RegisterViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA67E61A243A8BE800598495 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FA67E61B243A8BF300598495 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FA67E61C243A8BF800598495 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		FA67E61D243A8C0800598495 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+>>>>>>> Stashed changes
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -625,6 +763,11 @@
 				FA2CA0DA244384A2000AB4B0 /* WelcomeViewController.xib in Resources */,
 				FA212EF9242E23ED00C39799 /* LaunchScreen.storyboard in Resources */,
 				FA212EF6242E23ED00C39799 /* Assets.xcassets in Resources */,
+<<<<<<< Updated upstream
+=======
+				FA212F38242E68EC00C39799 /* WelcomeViewController.xib in Resources */,
+				FA67E621243A8C3500598495 /* RegisterViewController.xib in Resources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,10 +908,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
 				FA526505244382F40094348E /* LoginViewController.swift in Sources */,
 				FA212EF1242E23E800C39799 /* WelcomeViewController.swift in Sources */,
 				FA212EED242E23E800C39799 /* AppDelegate.swift in Sources */,
 				FA5264FC24437E210094348E /* BaseViewController.swift in Sources */,
+=======
+				FA1DDDC6243A6263004988A9 /* WelcomeInteractor.swift in Sources */,
+				FA67E627243AA12200598495 /* WelcomeInteractorProtocol.swift in Sources */,
+				FA1DDDCE243A62B1004988A9 /* WelcomePresenter.swift in Sources */,
+				FA67E61F243A8C2400598495 /* RegisterViewController.swift in Sources */,
+				FA67E625243A947B00598495 /* Repository.swift in Sources */,
+				FA212EF1242E23E800C39799 /* WelcomeViewController.swift in Sources */,
+				FA212EED242E23E800C39799 /* AppDelegate.swift in Sources */,
+				FA1DDDD2243A62D6004988A9 /* WelcomeRouter.swift in Sources */,
+				FA1DDDD0243A62C1004988A9 /* WelcomeEntity.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,6 +939,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
 				FAF4344B2443B02200BEA49E /* Offer.swift in Sources */,
 				FAF4345C24446E8400BEA49E /* VaultDataManager.swift in Sources */,
 				FA212F3D242E69A000C39799 /* String+Helper.swift in Sources */,
@@ -797,6 +953,16 @@
 				FAF434602444708200BEA49E /* CacheDataManager.swift in Sources */,
 				FAF434662444761B00BEA49E /* CoreDataManager.swift in Sources */,
 				FAF43464244475D400BEA49E /* RealmDataManager.swift in Sources */,
+=======
+				FA67E623243A932400598495 /* Repository.swift in Sources */,
+				FA212F4C2430DD9200C39799 /* UIScrollView+Helper.swift in Sources */,
+				FA212F46242FF7A300C39799 /* NSError+Helper.swift in Sources */,
+				FA212F48242FF8A600C39799 /* NSObject+ClassName.swift in Sources */,
+				FA212F4A242FF97000C39799 /* UITableView+Helper.swift in Sources */,
+				FA212F3D242E69A000C39799 /* String+Helper.swift in Sources */,
+				FA212F3B242E696B00C39799 /* UIView+Helper.swift in Sources */,
+				FA67E624243A93A500598495 /* WelcomeEntity.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
